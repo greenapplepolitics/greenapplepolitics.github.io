@@ -827,7 +827,8 @@ border-top: 3px solid rgb(109, 160, 171);
   padding-top: 0%;
   left: 0px;
   box-shadow: 5px 5px 10px #444444;
-  margin-top: 70%;
+  margin-top: 50%;
+  position: absolute;
 }
 
 .t_tag {
@@ -841,21 +842,24 @@ border-top: 3px solid rgb(109, 160, 171);
   top: 250px;
 }
 
-.navbar {
+#navbar {
   display: block;
   border-bottom-width: 0px;
+  position: absolute;
 }
 
 .t_head {
-  padding-top: 350px;
+  font-size: 50px;
 }
 
 .contact_email {
   top: 300px;
+  font-size: 30px;
 }
 
 .apply {
   top: 300px;
+  font-size: 30px;
 }
 
 .team_member {
@@ -896,13 +900,16 @@ top: 300px;
 }
 
 #issues {
-  width: 100%;
+  width: 45%;
   left: 0%;
   margin: 0px;
+  float: right;
 }
 #articles {
-  width: 100%;
+  width: 45%;
   left: 0%;
+  float: left;
+  margin: 0px;
 }
 #quote {
   width: 100%;
@@ -918,15 +925,16 @@ top: 300px;
 }
 
 #authors {
-  width: 100%;
+  width: 45%;
   left: 0%;
   margin: 0px;
-  border-bottom: 10px double rgb(34, 104, 128);
+  float: left;
 }
 #team {
-  width: 100%;
+  width: 45%;
   left: 0%;
   margin: 0px;
+  float: right;
 }
 
 .apbackground {
