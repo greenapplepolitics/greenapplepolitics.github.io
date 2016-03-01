@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link rel="shortcut icon" href="images/americanflag1.ico">
+
+<title>Politics</title>
+
+<link rel="stylesheet" href="main.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+
+</head>
+<body>
+
+
+<div id="navbar" align="center">
+
+
+  <a href="index.html"><img src="images/gaplogo.png" id="quote"/></a>
+  <a href="articles.html"><h1 class="nav" id="articles">Articles</h1></a>
+  <a href="team.html"><h1 class="nav" id="team">Team</h1></a>
+  <a href="issues.html"><h1 class="nav" id="issues">Issues</h1></a>
+  <a href="authors.html"><h1 class="nav" id="authors">Authors</h1></a>
+
+</div>
+
+  <div class="article">
+    <p class="a_head">Apple v. FBI</p>
+    <a href="authors.html#jack_flanagan"><p class="a_author">By Jack Flanagan</p></a>
+    <p class="a_body">
+      Every few years there is a court case that captures the attention of a country. From OJ Simpson in 1995 to the Supreme Court ruling on gay marriage in 2015, some cases are powerful enough to define a nation's identity. We are seeing this again in 2016; Apple v FBI has engaged the country in a way never seen before. It takes a lot for a legal battle to populate the minds of most Americans: constitutional rights, security, relevancy, and a host of other topics. Apple v FBI is one of the rare cases that manages to hit every topic.
+      <br/><br/>
+      It began as a battle of morals: potentially let a web of information and contacts remain unearthed, protected behind the walls of encryption, or develop backdoor access to iPhones that Tim Cook calls "the software equivalent of cancer," and potentially put the digital security of millions at risk. Morals fade away in court, however, but the legal arguments being presented by both sides are just as compelling. Before exploring the specifics of each case, it is important to know exactly what the FBI is demanding and why it is doing so.
+      <br/><br/>
+      The case has begged the question of why the best minds of the United States government cannot extract data from the phones hard drive and bypass the software. Apple's A6 chip, which is the processor on the iPhone 5c, is encrypted with American Encryption System 256 (AES256). To put it simply, basic encryption works by encrypting(jumbling) data through a method, storing it, and retrieving it using the reverse method to decrypt(reorganize) it. One of the most trivial of encryption methods is the Caesar cipher, which takes a phrase and shifts each letter forward or backward. For example, A becomes B, B becomes C, and so on until Z becomes A. Using the Caesar Cipher, the word "hello" becomes "ifmmp", a seemingly jumbled string of letters. To decrypt, the encryption method must be applied in reverse, shifting each letter back a spot. What makes AES256 nearly impossible to crack is the complexity and randomness of the encryption methods. When AES256 encrypts the A6 chip, it uses a series of methods, then generates a random 256 bit key to access the methods. Without the key, there is no access to the methods, meaning no way to decrypt the data. So, the only way to access the data on the iPhone is by guessing the phone's passcode or by guessing the random key on the A6 chip. This is where the FBI's demands come into play. The 256 bit encryption means that there are 2^256 possible keys. This number is unfathomably high. For argument's sake, if you were to connect 1 billion high-end GPUs (graphics processing units), requiring 150 nuclear power plant reactors to run, it would still take longer than the age of the universe to guess half of the keys (<a href="https://www.reddit.com/r/theydidthemath/comments/1x50xl/time_and_energy_required_to_bruteforce_a_aes256/" target="_blank">source</a>). The iPhone 5c passcode, however, has only ten thousand combinations (10 possible digits, 0-9  x  4 digits length). Computationally, this would take an incredibly small amount of time to crack. The issue lies in the way iOS was engineered by Apple. After ten failed guesses, all of the data on the phone is automatically deleted from memory. What the FBI has demanded of Apple is a modified version of iOS that bypasses the deletion of data after ten incorrect guesses and allows the electronic input of passcodes.
+      <br/><br/>
+      Apple's defense is reliant on the basic freedoms that define the United States, particularly the freedom of speech. This is not the first time such a topic has been debated. In May of 1999, the 9th Circuit Court of Appeals ruled that encryption source code falls under the freedom of speech guaranteed by the first amendment. Furthermore, in 2000, the case of Junger v. Daley ruled that all computer source code qualifies as protected speech. Apple is using this principle as grounds to argue that the FBI cannot force Apple's engineers to write code, as would violate their freedom of speech. This interpretation of the freedom of speech is not always the case. The United States can and has restricted the free speech of companies and individuals  in the past. In the Turner Broadcasting v. FCC  case, the Supreme Court determined that must-carry laws, which require cable providers to broadcast certain television stations, are constitutional. Another example of companies being required to distribute information is nutritional labels on food. Although the West Virginia State Board of Education v. Barnette case ruled in 1943 that the right not to speak is guaranteed under the freedom of speech, several laws, such as those pertaining to mandatory food labeling, have been passed that require companies to disclose information. It is evident that the definition of freedom of speech is ambiguous and has many exceptions. Apple's reliance on this as its main defense is dangerous and will lead to a very thin case.
+      <br/><br/>
+      The FBI has continually referenced the All Writs Act to justify its order for Apple to build a backdoor. The All Writs Act states that a court "may issue all writs necessary or appropriate in aid of their respective jurisdictions and agreeable to the usages and principles of law." In layman's terms, the act gives courts the authority to make demands of companies or individuals so long as they are within the law. The All Writs Act has been used in the past to force phone companies to help law enforcement track down individuals. In one such case in 1977, US v. New York Telephone Company, the court ruled that the government, by the All Writs Act, could force phone companies to install pen registers in order to track suspects' phone records. The court ruled that the forcible installation of pen registers was within the "principles of law" and "was appropriate in aid of [the government's] respective jurisdictions." Although there are similarities between this case and Apple v. FBI, there are also differences. The FBI has demanded that Apple modify a version iOS by writing new code; in 1977, though, the New York Telephone Company was only told to implement an existing technology. Thus, the first condition is satisfied in both cases; the demands are "appropriate in aid of [the government's] respective jurisdictions." The second condition, however, is what is being debated in the current case. Recall Apple's main argument: code is speech and Apple has the right not to speak. Consequently, Apple believes the order for it to modify iOS is not within the bounds of the law.
+      <br/><br/>
+      Regardless of the outcome of Apple v. FBI, it is sure set a lasting legal precedent. The case is something never seen before. The ambiguity has shifted views of companies and political parties. Apple competitors Google and Microsoft, who have both dueled with Apple in the past, are backing Apple in its fight maintain the strongest level of encryption. Meanwhile, at the most recent Republican debate, the four candidates questioned about the case all sided with the FBI, going against one of conservatism's core values of small government. Donald Trump, who was not asked about it at the debate, also sided with the FBI, calling for a boycott on Apple products during a rally in South Carolina.
+      <br/><br/>
+      Recall that the FBI has made two demands: that Apple remove the security feature that deletes data and that Apple build a mechanism to electronically input passcodes. It is in my best legal opinion that Apple be forced to comply with the former request, but not the latter. The Junger v. Daley case clearly states that all computer source code is protected as free speech, which eliminates the prospect of forcing Apple to write code. The All Writs Act cannot apply here because it would not be within the law to restrict Apple's right to free speech. Since they can not be required to write code, the order for Apple to build a way to electronically input passcodes is unconstitutional. The order for them to remove the data deletion security feature is constitutional, though. Since the FBI has demanded that they simply remove an existing feature, it does not violate Apple's freedom of speech.
+    </p>
+    <div class="a_footer">
+      <p class="a_date">February 29, 2016</p>
+      <a href="issues.html#technology" class="a_tag">Technology</a>
+    </div>
+  </div>
+
+
+
+
+</body>
+</html>
