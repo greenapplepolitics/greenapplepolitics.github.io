@@ -366,6 +366,33 @@ border-top: 3px solid black;
   display: inline-block;
   box-shadow: 5px 5px 10px #444444;
   vertical-align: top;
+  margin-top: 1%;
+}
+
+.team_writer {
+  background-color: rgb(227, 248, 252);
+  height: 350px;
+  width: 30%;
+  position: relative;
+  padding-bottom: 5%;
+  padding-top: 1%;
+  margin-left: 2.5%;
+  margin-bottom: 5%;
+  display: inline-block;
+  box-shadow: 5px 5px 10px #444444;
+  vertical-align: top;
+  margin-top: 3%;
+}
+
+#end_main_team {
+  content: '';
+  height: 25px;
+  width: 95%;
+  float: right;
+  margin-right: 2.5%;
+  margin-top: 10%;
+  background-color: rgb(109, 160, 171);
+  margin-bottom: 0px;
 }
 
 .team_image {
@@ -373,7 +400,7 @@ border-top: 3px solid black;
   font-family: monospace;
   font-weight: lighter;
   margin-top: 0px;
-  font-size: 60px;
+  font-size: 15px;
   margin-bottom: 0px;
   margin-left: 5%;
   border-radius: 50%;
@@ -517,6 +544,27 @@ width: 65%;
 
 .team_instagram:hover {
   background-color: rgb(81, 127, 164);
+  color: white;
+}
+
+.team_snapchat {
+  margin-top: 0px;
+  width: 100%;
+  border-radius: 50px;
+  border: 1px solid rgb(205, 200, 25);
+  color: rgb(205, 200, 25);
+  float: right;
+  font-family: monospace;
+  text-align: center;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  margin-bottom: 2%;
+  margin-right: 5%;
+  height: 10%;
+}
+
+.team_snapchat:hover {
+  background-color: rgb(205, 200, 25);
   color: white;
 }
 
@@ -866,6 +914,15 @@ border-top: 3px solid rgb(109, 160, 171);
 left: 0%;
 width: 95%;
 top: 300px;
+}
+.team_writer {
+left: 0%;
+width: 95%;
+top: 100px;
+}
+
+#end_main_team {
+  margin-top: 100%;
 }
 
 .main_link {
