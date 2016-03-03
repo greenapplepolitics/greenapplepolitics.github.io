@@ -861,6 +861,10 @@ border-top: 3px solid rgb(109, 160, 171);
   padding-bottom: 10%;
 }
 
+.a_head {
+  font-size: 30px;
+}
+
 .a_body::after {
   margin-bottom: 5px;
 }
