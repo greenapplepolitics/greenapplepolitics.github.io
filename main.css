@@ -853,6 +853,30 @@ border-top: 3px solid rgb(109, 160, 171);
   border-bottom: 3px solid black;
 }
 
+.a_body_text {
+  text-align: left;
+  font-family: monospace;
+  font-weight: lighter;
+  margin-top: 50px;
+  color: rgb(34, 104, 128);
+  font-size: 16px;
+  margin-bottom: 1%;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+.a_body_text_tabbed {
+  text-align: left;
+  font-family: monospace;
+  font-weight: lighter;
+  margin-top: 20px;
+  color: rgb(34, 104, 128);
+  font-size: 16px;
+  margin-bottom: 1%;
+  margin-right: 5%;
+  margin-left: 10%;
+}
+
 @media screen and (max-width: 1250px) {
 
 .article {
